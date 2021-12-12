@@ -48,33 +48,6 @@ struct Node {
     Node(Bid aBid) : Node() {
         this->bid = aBid;
     }
-
-
-    // create the key for the given bid
-    // unsigned int key = hash(atoi(bidId.c_str()));
-    //Node* node = &(nodes.at(key));
-
-    // if entry found for the key
-    //if (node != nullptr && node->key != UINT_MAX
-           // && node->bid.bidId.compare(bidId) == 0) {
-        //return node->bid;
-    //}
-
-    // if no entry found for the key
-    //if (node == nullptr || node->key == UINT_MAX) {
-        //return bid;
-    //}
-
-    //while (node != nullptr) {
-        // if the current node matches, return it
-        //if (node->key != UINT_MAX && node->bid.bidId.compare(bidId) == 0) {
-            //return node->bid;
-        //}
-        //node = node->next;
-    //}
-
-    //return bid;
-
 };
 
 //============================================================================
