@@ -193,6 +193,7 @@ void BinarySearchTree::addNode(Node* node, Bid bid) {
         }
     }
 }
+
 void BinarySearchTree::inOrder(Node* node) {
 
     // if the the node is not empty
@@ -208,24 +209,6 @@ void BinarySearchTree::inOrder(Node* node) {
 
     }
 }
-
-//void BinarySearchTree::postOrder(Node* node) {
-      // FixMe (10): Pre order root
-      //if node is not equal to null ptr
-      //postOrder left
-      //postOrder right
-      //output bidID, title, amount, fund
-
-
-
-//void BinarySearchTree::preOrder(Node* node) {
-      // FixMe (11): Pre order root
-      //if node is not equal to null ptr
-      //output bidID, title, amount, fund
-      //postOrder left
-      //postOrder right      
-//}
-
 
 Node* BinarySearchTree::removeNode(Node* node, string bidId) {
 
