@@ -54,10 +54,6 @@ struct Node {
 // Binary Search Tree class definition
 //============================================================================
 
-/**
- * Define a class containing data members and methods to
- * implement a binary search tree
- */
 class BinarySearchTree {
 
 private:
@@ -157,12 +153,6 @@ Bid BinarySearchTree::Search(string bidId) {
     return bid;
 }
 
-/**
- * Add a bid to some node (recursive)
- *
- * @param node Current node in tree
- * @param bid Bid to be added
- */
 void BinarySearchTree::addNode(Node* node, Bid bid) {
 
     // if node's bidId is larger than the bidId of the one we're adding...
@@ -282,11 +272,6 @@ Node* BinarySearchTree::removeNode(Node* node, string bidId) {
 // Static methods used for testing
 //============================================================================
 
-/**
- * Display the bid information to the console (std::out)
- *
- * @param bid struct containing the bid info
- */
 void displayBid(Bid bid) {
     cout << bid.bidId << ": " << bid.title << " | " << bid.amount << " | "
             << bid.fund << endl;
