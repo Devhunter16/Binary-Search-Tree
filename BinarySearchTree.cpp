@@ -127,22 +127,6 @@ void BinarySearchTree::InOrder() {
 }
 
 /**
- * Traverse the tree in post-order
- */
-//void BinarySearchTree::PostOrder() {
-    // FixMe (3): Post order root
-    // postOrder root
-//}
-
-/**
- * Traverse the tree in pre-order
- */
-//void BinarySearchTree::PreOrder() {
-    // FixMe (4): Pre order root
-    // preOrder root
-//}
-
-/**
  * Insert a bid
  */
 void BinarySearchTree::Insert(Bid bid) {
